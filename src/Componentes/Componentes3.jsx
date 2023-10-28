@@ -1,12 +1,13 @@
-function Componentes3(props){
-    return(
-        <>
-        <h3>COMPONENTES3</h3>
-        <p>INFORMAÇÃO ENVIADA PELO COMPONENTE PAI: {props.textoPai}
-        </p>
+import React from 'react';
 
-        <button onClick={props.clicouPai}>CLIQUE AQUI</button>
-        </>        
-    )
+function Componente3(props) {
+    return (
+        <>
+            <h3>COMPONENTE3</h3>
+            <p>INFORMAÇÃO ENVIADA PELO COMPONENTE PAI: {props.textoPai}</p>
+            <button onClick={props.clicouPai}>CLIQUE AQUI</button>
+        </>
+    );
 }
-export default Componentes3;
+
+export default Componente3;

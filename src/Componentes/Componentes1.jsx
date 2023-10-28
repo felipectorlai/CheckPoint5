@@ -1,8 +1,11 @@
-function Componentes1(){
-    return(
+import React from 'react';
+
+function Componente1() {
+    return (
         <>
-        <h1>PRIMEIRO COMPONENTE</h1>
+            <h1>PRIMEIRO COMPONENTE</h1>
         </>
-     )
-    }
-    export default Componentes1;
+    );
+}
+
+export default Componente1;

@@ -7,10 +7,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Node.js / JavaScript
 node_modules
 dist
 dist-ssr
-*.local
+.cached
+.cache
+build
 
 # Editor directories and files
 .vscode/*
@@ -22,3 +25,29 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Compiled binaries
+*.dll
+*.so
+*.dylib
+
+# Dependency directories
+.pnp
+.pnp.js
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.*.local
+.env.*.development
+.env.*.test
+.env.*.production
+
+# Build files
+build/
+out/
+dist/
+tmp/
